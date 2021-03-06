@@ -11,6 +11,13 @@
     "dist",
     "src"
   ],
+  "keywords": [
+    "react",
+    "hook",
+    "array",
+    "filter",
+    "use"
+  ],
   "size-limit": [
     {
       "path": "dist/use-input-filter.cjs.production.min.js",
