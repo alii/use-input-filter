@@ -40,7 +40,7 @@ const people: Person[] = [
 ];
 
 const App = () => {
-  const { state, setState, filtered } = useInputFilter((user, index, state) => {
+  const { state, setState, filtered } = useInputFilter((user, state) => {
     return user.username.toLowerCase().includes(state.toLowerCase());
   }, people);
 
